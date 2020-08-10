@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="contactForm.css">
+    <title>D</title>
+
+    
+</head>
+
+
+
+<body>
+
+   
+
+    <div class="main_wrapper">
+        
+        <h1>Thank you for choosing the Bottega Diner and Cafe!</h1><br>
+    </div>
+
+    <div class="links_wrapper">
+        <p>
+        
+        <input type="button" onclick="location.href='breakfast.html';" value="Breakfast" />
+        <input type="button" onclick="location.href='lunch.html';" value="Lunch" />
+        <input type="button" onclick="location.href='dinner.html';" value="Dinner" />
+        
+        <input type="button" onclick="location.href='index.html';" value="Home" />
+        <input type="button" onclick="location.href='cart.html';" value="Cart" />
+
+        </p>
+        
+    </div>
+
+    <div class = "contact-form-page">
+        <h2>Have a question? Ask Jarvis and he will respond as soon as he can. If you can't wait, please call us at: 555-555-5555    </h2>
+        
+        <p><img src="843361.png" height="50px" width="5s0px";></p>
+    </div>
+    
+    <div class="contact-form-p">
+        <h3>To send Jarvis a message, please fill out the form below and then click "Submit" to submit the form:</h3>
+        <br>
+        <br> 
+    </div> 
+      
+
+        
+    
+        <div class = "contact-form">
+            <form id="frmContact" action="/action_page.php">
+                First name:<input type="text" name="fname"><br>
+                Email:<input type="text" name="email"><br>
+                Message:<input type="text" name="message"><br>
+                <input type="button" onclick="myFunction()" value="Submit">
+                </form>
+        </div>
+
+
+<div class = background-image>
+    <img src="white_devcamp_logo.png" height="500px" width="100%";>
+
+    
+
+    <div class="footer">
+        <div class="address">
+            123 W 200 N, SLC
+        </div>
+
+        <div class="phoneNumber">
+            555-555-5555
+        </div>
+
+        <div class="email">
+            info@bottegadiner.com
+        </div>
+
+        <div class = "askJarvis">
+            <button id="button" onclick="location.href='contact_form.html';"></button>
+
+                <script type="text/javascript">
+                    var buttons = document.getElementById("button");
+                    buttons.innerHTML = '<img src="waiter-512.png" height=70px width=70px>';
+                </script>
+            
+
+        
+            
+        </div>
+    
+</div>
+</div>
+
+    
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+</body>
+</html>

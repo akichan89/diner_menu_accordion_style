@@ -1,0 +1,27 @@
+.name_capture {
+    font-weight: bold;
+    color:#00cb79;
+    padding: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.name_capture-p {
+    font-family: 'Montserrat', sans-serif;
+    color:#00cb79;
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+#frm1 {
+    padding-left: 310px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    
+
+}
